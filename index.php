@@ -1,11 +1,7 @@
 <?php
-$con = mysqli_connect("localhost","root","","social");
-if(mysqli_connect_errno())
-{
-	echo " Failed to connect" . mysqli_conect_errno();
-}
+require 'config/config.php';
 
-$query = mysqli_query($con,"INSERT INTO test VALUES('','Ayman') ");
+//$query = mysqli_query($con,"INSERT INTO test VALUES('','Ayman') ");
 ?>
 
 <html>
