@@ -27,7 +27,7 @@ if(isset($_POST['login_button']))
         exit();
     }
     else 
-    {
+    {  
         array_push($error_array , "Email or Password was incorrect<br>");
     }
 }
