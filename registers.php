@@ -77,7 +77,7 @@ if(isset($_POST['reg_button'])) {
                     value = "<?php if (isset($_SESSION['reg_email2'])) { echo  $_SESSION['reg_email2']; } ?> " required>
                     <br>
 
-                    <?php if (in_array("Email already in use <br>",$error_array)) {echo "Email already in use <br>";}
+                    <?php    if (in_array("Email already in use <br>",$error_array)) {echo "Email already in use <br>";}
                         else if (in_array("Invalid Email Format <br>",$error_array)) {echo "Invalid Email Format <br>";}
                         else if (in_array("Emails don't match <br>"  ,$error_array)) {echo "Emails don't match <br>"  ;}?>
                     
