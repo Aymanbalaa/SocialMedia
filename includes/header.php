@@ -35,6 +35,7 @@ header("Location: register.php");
                <a href="index.php"><i class="fa-solid fa-house"></i></a>
                <a href=""><i class="fa-solid fa-message" style="color: #FFF;"></i></a>
                <a href=""><i class="fa-solid fa-gear" style="color: #FFF;"></i></a>
+               <a href="includes/handlers/logout.php"><i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i></a>
             </nav>
         </div>
         

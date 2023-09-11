@@ -77,7 +77,6 @@ nav a:hover {
     width : 350px;
     float : left;
     margin-bottom: 20px;
-
 }
 
 .user_details_left_right {
@@ -130,6 +129,5 @@ nav a:hover {
 
 .post_form input[type= "submit"]:active{
     padding:5px 4px 4px 5px;
-
 }
 
