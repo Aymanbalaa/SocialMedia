@@ -8,7 +8,7 @@ if (isset($_POST['post']))
 {
     $post = new Post($con ,$userLoggedIn);
     $post ->submitPost($_POST['post_text'],'none');
-    header("Location :index.php");
+    header("Location:index.php");
 }
 ?>
     <div class = "user_details coloumn">
@@ -37,7 +37,16 @@ if (isset($_POST['post']))
             <hr>
 
         </form>
-    </div>
+
+        <?php
+
+        $post = new Post($con ,$userLoggedIn);
+        $post -> loadPostsFriends();
+
+
+        ?>
+
+        </div>
 
 
 </div>
